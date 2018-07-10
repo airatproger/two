@@ -1,0 +1,671 @@
+
+<!doctype html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Орабэль</title> 
+    <link rel="stylesheet" href="css/main.css"> 
+</head> 
+<body> 
+<header class="header"> 
+    <div class="header__wrapper"> 
+ 
+        <div class="header-head"> 
+            <div class="header-head__wrapper container"> 
+                <div class="header-head__group header-head__group--links"> 
+                    <div class="header-head__item header-head__item--dostavka"><a href="" class="header-head__link header-head__link--dostavka">Доставка</a></div> 
+                    <div class="header-head__item header-head__item--oplata"><a href="" class="header-head__link header-head__link--oplata">Оплата</a></div> 
+                    <div class="header-head__item header-head__item--garant"><a href="" class="header-head__link header-head__link--garant">Гарантия</a></div> 
+                </div> 
+                <div class="header-head__group header-head__group--phones"> 
+                    <div class="header-head__item header-head__item--phones"> 
+                        <a href="" class="header-head__link header-head__link--phone-one">8 (495) 226-01-24</a> 
+                        <a href="" class="header-head__link header-head__link--phone-two">8 (905) 556-05-38</a></div> 
+                </div> 
+                <div class="header-head__group header-head__group--enter"> 
+                    <div class="header-head__item header-head__item--enter"><a href="" class="header-head__link header-head__link--enter">Войти</a></div> 
+                </div> 
+            </div> 
+        </div> 
+ 
+        <div class="header-main"> 
+            <div class="header-main__wrapper container"> 
+                <div class="header-main__logo"> 
+                    <div class="logo"> 
+                        <a href="" class="logo__link"> 
+                            <img src="img/logo.png" alt="" class="logo__img"> 
+                            <span class="logo__name">ОРАБЭЛЬ</span> 
+                        </a> 
+                    </div> 
+                </div> 
+                <form action="" class="header-main__form"> 
+                    <div class="header-main__group"> 
+                        <input type="text" class="header-main__input" placeholder="Поиск"> 
+                        <butoon class="header-main__button"></butoon> 
+                    </div> 
+                    <div class="button-menu d-none"> 
+                        <span></span> 
+                        <span></span> 
+                        <span></span> 
+                    </div> 
+                </form> 
+                <div class="header-main__basket"> 
+                    <!--.basket--true делает корзину крассной--> 
+                    <div class="basket basket--true"> 
+                        <span class="basket__col">2</span> 
+                        <a href="" class="basket__link"></a> 
+                        <span class="basket__text">В корзине нет добавленных товаров</span> 
+                        <div class="basket-dropdown basket-dropdown--none"> 
+                            <div class="basket-dropdown__hidden"></div> 
+                            <div class="basket-dropdown__box"> 
+                                <div class="basket-dropdown-item"> 
+                                    <img src="img/basket--item.jpg" alt="" class="basket-dropdown-item__img"> 
+                                    <div class="basket-dropdown-item__about"> 
+                                        <span class="basket-dropdown-item__title">Jour d’Hermes</span> 
+                                        <span class="basket-dropdown-item__descrip">Kelly Calèche</span> 
+                                    </div> 
+                                    <div class="basket-dropdown-item__del"><i class="fa fa-times" aria-hidden="true"></i></div> 
+                                </div> 
+                                <div class="basket-dropdown-item"> 
+                                    <img src="img/basket--item.jpg" alt="" class="basket-dropdown-item__img"> 
+                                    <div class="basket-dropdown-item__about"> 
+                                        <span class="basket-dropdown-item__title">Jour d’Hermes</span> 
+                                        <span class="basket-dropdown-item__descrip">Kelly Calèche</span> 
+                                    </div> 
+                                    <div class="basket-dropdown-item__del"><i class="fa fa-times" aria-hidden="true"></i></div> 
+                                </div> 
+                                <div class="basket-dropdown__skidka"> 
+                                    <span class="basket-dropdown__text">Персональная скидка:</span> 
+                                    <span class="basket-dropdown__cash">0 руб.</span> 
+                                </div> 
+                                <div class="basket-dropdown__itog"> 
+                                    <span class="basket-dropdown__text">Итого:</span> 
+                                    <span class="basket-dropdown__cash">3 040 руб.</span> 
+                                </div> 
+                                <a href="" class="basket-dropdown__button">Оформить заказ</a> 
+ 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+ 
+        <div class="header-foot header-foot--none"> 
+            <div class="header-foot__wrapper container"> 
+                <a href="" class="header-foot__link">длЯ ЖЕНЩИН</a> 
+                <a href="" class="header-foot__link">ДЛЯ МУЖЧИН</a> 
+                <a href="" class="header-foot__link">ПОДАРочные  наборы</a> 
+                <a href="" class="header-foot__link">КОСМЕТИКА</a> 
+                <a href="" class="header-foot__link">ДУХИ С ФЕРОМОНАМИ</a> 
+                <a href="" class="header-foot__link">ДЛЯ ДОМА</a> 
+                <a href="" class="header-foot__link header-foot__link--active">РАСПРОДАЖа</a> 
+            </div> 
+        </div> 
+    </div> 
+</header> 
+<div class="register-window register-window--none"> 
+    <div class="register-window__wrapper"> 
+        <div class="enter"><span class="enter__title">Авторизация</span> 
+            <form action="" class="enter__form"> 
+                <div class="enter__group"> 
+                    <label for="login" class="enter__label">Логин или E-mail:</label> 
+                    <input type="text" class="enter__input" id="login"> 
+                </div> 
+                <div class="enter__group"> 
+                    <label for="passvord" class="enter__label">Пароль:</label> 
+                    <input type="password" class="enter__input" id="passvord"> 
+                </div> 
+                <button class="enter__button">Войти</button> 
+            </form> 
+        </div> 
+        <div class="register"><span class="register__title">Регистрация</span> 
+            <form action="" class="register__form"> 
+                <div class="register__group"> 
+                    <label for="new-login" class="register__label">Логин или E-mail:</label> 
+                    <input type="text" class="register__input" id="new-login"> 
+                </div> 
+                <div class="register__group"> 
+                    <label for="new-password" class="register__label">Пароль:</label> 
+                    <input type="password" class="register__input" id="new-password"> 
+                </div> 
+                <div class="register__group"> 
+                    <label for="check-new-password" class="register__label">Повторите пароль:</label> 
+                    <input type="password" class="register__input" id="check-new-password"> 
+                </div> 
+                <div class="register__group"> 
+                    <label for="new-phone" class="register__label">Ваш телефон:</label> 
+                    <div class="register__gr"> 
+                        <input type="text" class="register__input register__input--1" id="new-phone" placeholder="+7"> 
+                        <input type="text" class="register__input register__input--2"> 
+                        <input type="text" class="register__input register__input--3"> 
+                    </div> 
+                </div> 
+                <div class="register__group"> 
+                    <label for="new-adress" class="register__label">Адрес для доставки:</label> 
+                    <input type="text" class="register__input" id="new-adress" placeholder="428003  Г. Чебоксары, ул. Гагарина д.17 кв 135"> 
+                </div> 
+                <button class="register__button">Зарегистрироваться</button> 
+            </form> 
+        </div> 
+    </div> 
+ 
+</div> 
+<div class="main-index"> 
+    <div class="main-index__wrapper container"> 
+        <div class="breadcrumbs"> 
+            <div class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Главная</a></div> 
+            <div class="breadcrumbs__item"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" class="breadcrumbs__link">О компании</a></div> 
+            <div class="breadcrumbs__item"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="" class="breadcrumbs__link breadcrumbs__link--disabled">Скидки</a></div> 
+        </div> 
+        <h3 class="small-title">Распродажа</h3> 
+        <div class="main-wrapper"> 
+            <div class="main-wrapper__left-bar"> 
+                <aside class="aside"> 
+                    <form action="" class="filter"> 
+                        <div class="filter-category"> 
+                            <div class="filter-category__group filter-category__group--main"> 
+                                <h3 class="filter-category__title filter-category__title--main">ФИЛЬТР</h3> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Для мужчин</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Для женщин</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Подарочные наборы</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Косметика</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Духи с феромонами</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Скидки</span> 
+                                </label> 
+                            </div> 
+                            <div class="filter-category__group"> 
+                                <h3 class="filter-category__title">Цена</h3> 
+                            </div> 
+                            <div class="filter-category__group"> 
+                                <h3 class="filter-category__title">Аромат</h3> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Пряный</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Свежий</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Цитрус</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Специи</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Цветочный</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Фруктовый</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Пряный</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Свежий</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Цитрус</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Специи</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Цветочный</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Фруктовый</span> 
+                                </label> 
+                                <a href="" class="filter-category__link">Все ароматы</a> 
+                            </div> 
+ 
+                            <div class="filter-category__group"> 
+                                <h3 class="filter-category__title">Бренд</h3> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Acca Kappa</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Baldi</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Celine Dion</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Dolce & Gabbana</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Fendi</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Hugo Boss</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Acca Kappa</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Baldi</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Celine Dion</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Dolce & Gabbana</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Fendi</span> 
+                                </label> 
+                                <label class="filter-category__label"> 
+                                    <input type="checkbox" class="filter-category__input"> 
+                                    <span class="filter-category__text">Hugo Boss</span> 
+                                </label> 
+                                <a href="" class="filter-category__link">Все бренды</a> 
+                            </div> 
+                        </div> 
+                    </form> 
+                </aside> 
+            </div> 
+            <div class="main-wrapper__content"> 
+                <div class="sortirovka"> 
+                    <div class="sortirovka__first"> 
+                        <span class="sortirovka__text">Сортировать по:</span> 
+                        <a href="" class="sortirovka__link">Цене</a> 
+                        <a href="" class="sortirovka__link">Популярности</a> 
+                        <a href="" class="sortirovka__link">Названию</a> 
+                    </div> 
+                    <div class="sortirovka__two"> 
+                        <span class="sortirovka__text sortirovka__text--mr">Показывать по:</span> 
+                        <a href="" class="sortirovka__items-link sortirovka__items-link--active">20</a> 
+                        <a href="" class="sortirovka__items-link">40</a> 
+                        <a href="" class="sortirovka__items-link">60</a> 
+                        <a href="" class="sortirovka__items-link">80</a> 
+                    </div> 
+ 
+                    <div class="sortirovka__tree"> 
+                        <a href="" class="sortirovka__button sortirovka__button--plitka"><i class="fa fa-th-large" aria-hidden="true"></i></a> 
+                        <a href="" class="sortirovka__button sortirovka__button--spisok sortirovka__button--active"><i class="fa fa-th-list" aria-hidden="true"></i></a> 
+                    </div> 
+                </div> 
+                <div class="catalog-items"> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                    <div class="catalog-items__item"> 
+                        <span class="catalog-items__skidka">10%</span> 
+                        <img src="img/new-item.jpg" alt="" class="catalog-items__img"> 
+                        <div class="catalog-items__body"> 
+                            <span class="catalog-items__title">Jour d’Hermes</span> 
+                            <span class="catalog-items__subtitle">Kelly Calèche</span> 
+                            <span class="catalog-items__text">Компании Hermes существует с 1837 года, с момента основания Тьерри Эрмесом небольшого производства по выпуску упряжи для лошадей. Успешно развивающийся бизнес Hermes позволил владельцу компании расширить границы деятельности и освоить новые направления – изготовление ювелирных изделий.</span> 
+                        </div> 
+                        <div class="catalog-items__end"> 
+                            <span class="catalog-items__cena">1 680 руб</span> 
+                            <a href="" class="catalog-items__button">В корзину</a> 
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="pagination"> 
+                    <div class="pagination__item"><a href="" class="pagination__link pagination__link--prev"><i class="fa fa-angle-left" aria-hidden="true"></i> Предыдущая</a></div> 
+                    <div class="pagination__item"><a href="" class="pagination__link">1</a></div> 
+                    <div class="pagination__item"><a href="" class="pagination__link">2</a></div> 
+                    <div class="pagination__item"><a href="" class="pagination__link pagination__link--active">3</a></div> 
+                    <div class="pagination__item"><a href="" class="pagination__link">4</a></div> 
+                    <div class="pagination__item"><a href="" class="pagination__link">5</a></div> 
+                    <div class="pagination__item"><a href="" class="pagination__link">6</a></div> 
+                    <div class="pagination__item"><a href="" class="pagination__link pagination__link--next">Следующая <i class="fa fa-angle-right" aria-hidden="true"></i></a></div> 
+                </div> 
+            </div> 
+        </div> 
+        <h3 class="main-title"><span class="main-title__text">О компании</span></h3> 
+        <div class="index-about"> 
+            <div class="index-about__item index-about__item--1"> 
+                <p class="index-about__text index-about__text--title">Добро пожаловать в парфюмерный магазин ОРАБЭЛЬ.</p> 
+                <p class="index-about__text">Магазин парфюмерии ОРАБЭЛЬ – настоящий гипермаркет изделий, где каждый сможет найти для себя подходящий парфюм. Широчайший выбор, разнообразие ароматов и доступные цены — то, что мы предлагаем каждому нашему клиенту. Большой ассортимент женских и мужских духов выгодно выделяет магазин парфюмерии ОРАБЭЛЬ. В каталоге представлено более 40 тысяч продукций духов, выполненных в различных ароматических решениях – от классика до авангарда. Высочайшее качество парфюма, которые предлагает магазин парфюмерии ОРАБЭЛЬ, подтверждено авторитетом крупнейших производителей, входящих в число лидеров отрасли, с которыми мы сотрудничаем напрямую.</p> 
+            </div> 
+            <div class="index-about__item index-about__item--2"> 
+                <p class="index-about__text">Духи попадают в наши парфюмерные салоны после прохождения строгого контроля качества, что позволяет нам быть уверенными в том, что парфюм, купленные в ОРАБЭЛЬ, будет радовать своих обладателей. ОРАБЭЛЬ – магазин элитной парфюмерии с максимально доступными ценами. Прямое сотрудничество с производителями позволяет нам устанавливать лучшие цены на парфюмерию, которые приятно удивят наших покупателей. Специальные предложения, скидки и акции, которые проводит магазин парфюмерии ОРАБЭЛЬ, позволяют сделать приобретение духов еще выгодней.</p> 
+                <p class="index-about__text">ОРАБЭЛЬ – ароматный шопинг еще никогда не был так приятен.</p> 
+            </div> 
+        </div> 
+        <h3 class="main-title"><span class="main-title__text">Статьи</span></h3> 
+        <div class="previev-articles"> 
+            <div class="previev-articles__item"> 
+                <div class="previev-articles__head"> 
+                    <div class="previev-articles__date"><span class="previev-articles__number">06</span><span
+                            class="previev-articles__month">июня</span></div> 
+                    <h3 class="previev-articles__title">АЛЛЕРГИЯ НА ДУХИ: КАК И ПОЧЕМУ?</h3> 
+                </div> 
+                <div class="previev-articles__body"> 
+                    <p class="previev-articles__text">Внедрение в производство парфюмов новых технологий привело не только к
+                        увеличению разнообразия предлагаемых духов, но и к появлению у многих людей аллергии на ароматы и их
+                        ингредиенты. Причинами появления кожных раздражений могут стать красители, консерванты, загустители,
+                        отдушки, летучие вещества, а также индивидуальная непереносимость.</p> 
+                    <a href="" class="previev-articles__link">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a></div> 
+            </div> 
+            <div class="previev-articles__item"> 
+                <div class="previev-articles__head"> 
+                    <div class="previev-articles__date"><span class="previev-articles__number">06</span><span
+                            class="previev-articles__month">июня</span></div> 
+                    <h3 class="previev-articles__title">АЛЛЕРГИЯ НА ДУХИ: КАК И ПОЧЕМУ?</h3> 
+                </div> 
+                <div class="previev-articles__body"><img src="img/previev-article--img.jpg" alt="" class="previev-articles__img"> 
+                    <p class="previev-articles__text">Внедрение в производство парфюмов новых технологий привело не только к
+                        увеличению разнообразия предлагаемых духов, но и к появлению у многих людей аллергии на ароматы и их
+                        ингредиенты. Причинами появления кожных раздражений могут стать красители, консерванты, загустители,
+                        отдушки, летучие вещества, а также индивидуальная непереносимость.</p> 
+                    <a href="" class="previev-articles__link">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a></div> 
+            </div> 
+            <div class="previev-articles__item"> 
+                <div class="previev-articles__head"> 
+                    <div class="previev-articles__date"><span class="previev-articles__number">06</span><span
+                            class="previev-articles__month">июня</span></div> 
+                    <h3 class="previev-articles__title">АЛЛЕРГИЯ НА ДУХИ: КАК И ПОЧЕМУ?</h3> 
+                </div> 
+                <div class="previev-articles__body"> 
+                    <p class="previev-articles__text">Внедрение в производство парфюмов новых технологий привело не только к
+                        увеличению разнообразия предлагаемых духов, но и к появлению у многих людей аллергии на ароматы и их
+                        ингредиенты. Причинами появления кожных раздражений могут стать красители, консерванты, загустители,
+                        отдушки, летучие вещества, а также индивидуальная непереносимость.</p> 
+                    <a href="" class="previev-articles__link">Подробнее <i class="fa fa-angle-right" aria-hidden="true"></i></a></div> 
+            </div> 
+        </div> 
+        <h3 class="main-title"><span class="main-title__text">Подпишитесь на рассылки
+            <span class="main-title__text--mod">Чтобы быть в курсе выгодных акций</span> 
+        </span></h3> 
+        <div class="podpiska"> 
+            <form action="" class="podpiska__form"><input type="text" class="podpiska__input"> 
+                <button class="podpiska__button">Подписаться</button> 
+            </form> 
+        </div> 
+    </div> 
+</div> 
+ 
+ 
+<footer class="footer"> 
+    <div class="footer__wrapper container"> 
+        <div class="footer__main"> 
+            <div class="footer-contact"> 
+                <span class="footer-contact__title">ЕСТЬ ВОПРОСЫ? ПОЗВОНИТЕ</span> 
+                <a href="" class="footer-contact__phone">8 (495) 226-01-24</a> 
+                <span class="footer-contact__semititle">КОНТАКТНАЯ ИНФОРМАЦИЯ</span> 
+                <span class="footer-contact__text">Ежедневно с 09 до 21:00</span> 
+                <span class="footer-contact__text">Без выходных</span> 
+                <div class="footer-social"> 
+                    <a href="" class="footer-social__link footer-social__link--vk"><i class="fa fa-vk" aria-hidden="true"></i></a> 
+                    <a href="" class="footer-social__link footer-social__link--fb"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                    <a href="" class="footer-social__link footer-social__link--tw"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                    <a href="" class="footer-social__link footer-social__link--od"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a> 
+                </div> 
+            </div> 
+            <div class="footer-menu"><span class="footer-menu__title">Меню</span> 
+                <ul class="footer-menu__list"> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">ДЛЯ ЖЕНЩИН</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">ДЛЯ МУЖЧИН</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">ПОДАРочные  наборы</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">КОСМЕТИКА</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">ДУХИ С ФЕРОМОНАМИ</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">ДЛЯ ДОМА</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">РАСПРОДАЖА</a></li> 
+                </ul> 
+            </div> 
+            <div class="footer-menu"><span class="footer-menu__title">О компании</span> 
+                <ul class="footer-menu__list"> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">О компании</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">Скидки</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">Статьи</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">сертефикаты</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">контакты</a></li> 
+                </ul> 
+            </div> 
+            <div class="footer-menu"><span class="footer-menu__title">СЕРВИС И ПОМОЩЬ</span> 
+                <ul class="footer-menu__list"> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">Способ доставки</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">способ оплаты</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">Возврат</a></li> 
+                    <li class="footer-menu__item"><a href="" class="footer-menu__link">ПУБличная оферта</a></li> 
+                </ul> 
+            </div> 
+        </div> 
+        <div class="footer__foot"> 
+            <span class="footer__co">© Орабэль, 2010–2016</span> 
+            <span class="footer__description">Эксклюзивная, нишевая и селективная парфюмерия</span> 
+        </div> 
+    </div> 
+</footer> 
+<div class="overlay overlay--none"></div> 
+<script src="js/main.js"></script> 
+</body> 
+</html>
